@@ -1,0 +1,279 @@
+body {
+    background-image: url('111.png');
+    height: 100%;
+    /* width: cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .container #logo1 {
+    display: inline-block;
+    width: 200px;
+    margin-left: 120px;
+    position: absolute;
+    top: 50px;
+
+}
+.container #yazi {
+   display: inline-block;
+  /* width: 200px; */
+  margin-left: 135px;
+  margin-top: 80px;
+  /* position: absolute; */
+font-size: 36px;
+font-weight: undefined;
+font-style: normal;
+text-align: left;
+color: #F4F4F4;
+
+
+}
+
+.container ul#navs {
+   display: inline-block;
+    margin-right: 25px; 
+   position: absolute;
+   /* right: 100px; */
+    top: 50px;
+    margin-left: 100px;
+
+}
+
+ .container ul#navs li{
+
+  list-style: none;
+  display: inline-block;
+  margin: 0 25px;
+
+
+}
+
+ .container ul#btns {
+  display: inline-block;
+    /* margin-right: 25px; */
+    position: absolute;
+    right: 100px;
+    top: 50px
+
+}
+.container ul#btns li{
+
+  list-style: none;
+  display: inline-block;
+  margin: 0 0;
+
+
+}
+
+   .btn1 {
+    border: 2px;
+    list-style: none;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: white;
+    color: white;
+    padding: 25px 64px;
+    font-weight: 300;
+    line-height: 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background: none;
+    font-size: 36px;
+    margin: 0 25px;
+  }
+
+   .btn2 {
+    background: linear-gradient(#531BD6,#5226EA);
+    /* width: 156px;
+    height: 84px; */
+    border: none;
+    border-radius: 6px;
+    font-weight: 300;
+    line-height: 36px;
+    color: white;
+    padding: 25px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    margin: 0 25px;
+    /* position: absolute; */
+
+  } 
+
+  .btn3 {
+    border: none;
+    color: white;
+    height: 63px;
+    padding: 15px 32px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    margin: 10px;
+  }
+
+  .paragraf{
+
+    margin-left: 250px;
+    margin-top: 150px;
+    color: white;
+    font-size: 75px;
+    letter-spacing:5px;
+
+  }
+
+  .paragraf2{
+
+    margin-top: 40px;
+    margin-left: 250px;
+    color: white;
+
+  }
+  .numara ul{
+    
+    margin-top: 40px;
+    margin-left: 190px;
+
+  }
+
+  .numara ul li{
+    display: inline-block;
+    list-style: none;
+  
+
+  }
+
+  .numara .btn4{
+
+    border: 2px;
+    list-style: none;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: white;
+    color: white;
+    padding: 10px 11px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background: none;
+    font-size: 17px;
+    margin: 0 15px;
+
+  }
+
+  .numara .btn5{
+
+    border: 2px;
+    list-style: none;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: white;
+    color: white;
+    padding: 16px 5px;
+    font-weight: 300;
+    
+    width: 310px;
+    line-height: 36px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    background: none;
+    font-size: 21px;
+    /* margin: 0 25px; */
+
+  }
+
+  .numara .btn6{
+
+    background: linear-gradient(#531BD6,#5226EA);
+    border: none;
+    border-radius: 6px;
+    font-weight: 400;
+    line-height: 36px;
+    color: white;
+    padding: 18px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 0 10px;
+  }
+
+  .card {
+
+    position: absolute;
+    width: 800px;
+    height: 650px;
+    /* opacity: 0.62; */
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    bottom: 900px;
+    left: 900px;
+
+  }
+
+  /* .card .card-header ul{
+    
+    text-align: center;
+  } */
+
+  /* .card .card-header ul li {
+
+    display: inline-block;
+
+  } */
+
+  .footer {
+
+    margin-top: 250px;
+    margin-left: 250px;
+
+  }
+  .footer ul {
+
+    right: 100px;
+
+  }
+
+  .footer ul li {
+    list-style: none;
+    display: inline-block;
+  }
+  input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1; /* Firefox */
+  }
+
+  .card-body .btn7 {
+
+    background: linear-gradient(#531BD6,#5226EA);
+    /* width: 156px;
+    height: 84px; */
+    border: none;
+    border-radius: 6px;
+    font-weight: 300;
+    line-height: 36px;
+    color: white;
+    padding: 25px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    
+    /* position: absolute; */
+
+  }
+
+ .form-control ::placeholder {
+
+    color: white;
+
+  }
